@@ -1,6 +1,10 @@
-package one.digitalinnovation;
+package one.digitalinnovation.Singleton;
 
-public class Teste {
+import one.digitalinnovation.Singleton.SIngletonLazyHolder;
+import one.digitalinnovation.Singleton.SingletonEager;
+import one.digitalinnovation.Singleton.SingletonLazy;
+
+public class TesteSingleton {
 
     public static void main(String[] args) {
 
@@ -20,6 +24,7 @@ public class Teste {
         System.out.println(lazyHolder);
         lazyHolder = SIngletonLazyHolder.getInstancia();
         System.out.println(lazyHolder);
+
 
     }
 }

@@ -1,4 +1,4 @@
-package one.digitalinnovation;
+package one.digitalinnovation.Singleton;
 
 public class SingletonEager {
     private static SingletonEager instancia = new SingletonEager();
